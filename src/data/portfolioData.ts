@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   github: 'https://github.com/leivcnt01',
   linkedin: 'https://linkedin.com/in/leibern-vicente',
   phone: '09922387248',
-  location: 'Barangka Drive, Mandaluyong City, Philippines',
+  location: 'Mandaluyong City, Philippines',
   timezone: 'GMT+8 (Asia/Manila)',
   status: 'Open to IT support and entry-level technology opportunities',
   tagline: 'DEDICATED TO PRACTICAL IT SUPPORT AND RELIABLE OPERATIONS.',
