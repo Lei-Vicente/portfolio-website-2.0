@@ -1,0 +1,44 @@
+# Leibern R. Vicente — LLMS.txt
+# Canonical structured representation for AI agents and automated parsers.
+# Version: 1.0.0
+
+## IDENTITY
+- Name: Leibern R. Vicente
+- Title: IT Student / Developer / Technical Problem Solver
+- Current Standing: 4th Year Bachelor of Science in Information Technology
+- Status: Available for OJT, Graduate Engineering Roles, and Technical Projects
+- Location: Philippines (GMT+8)
+- Email: leivcnt01@gmail.com
+- GitHub: https://github.com/leivcnt01
+- Primary Positioning: "Strategy meets production code with minimal handoffs."
+- Core Thesis: "I understand the problem, I think through the solution, and I build it."
+
+## EDUCATION
+- University: College of Information and Communications Technology
+- Degree: Bachelor of Science in Information Technology
+- Standing: 4th Year (Expected Graduation: 2025–2026)
+- Core Competencies: Software Architecture, Database Normalization, Web Systems, Network Fundamentals.
+
+## EXPERIENCE & LEADERSHIP
+1. IT Systems Intern (OJT) | Enterprise IT Services (2025–Present)
+   - Staging deployments, network diagnostics, SQL audits, SOP documentation.
+2. Student Assistant | College Computer Laboratories (2024–2025)
+   - Maintained 150+ workstations, software stack imaging, lab environment triage.
+3. Head of Liaison Committee | CMCSA Student Association (2024–Present)
+   - External tech partnerships, developer symposium coordination, digitized check-in system.
+
+## PROJECTS & EVIDENCE
+- [001] Academic Records & Capstone Management System: PHP, MySQL, MVC, Tailwind. Built for 32 capstone teams and 14 faculty evaluators.
+- [002] Distributed Inventory & POS Engine: Java 21, JavaFX, SQLite, Multithreading. 100% offline-first desktop retail checkout.
+- [003] CMCSA Event Registration Hub: TypeScript, Node.js, Express, React, QR scanner. 480 attendees checked in under 20 mins.
+- [004] HTTP Endpoint Latency Benchmarker: Node.js, TypeScript, React. Precision TTFB & DNS socket measurement.
+- [005] Prerequisite Graph Engine: Vanilla JS, Canvas API, DAG Topological Sort. Course bottleneck simulator for 150+ students.
+
+## CORE SKILLS
+- Development: PHP (Experienced), Java (Experienced), JavaScript ES6+ (Experienced), TypeScript (Working Knowledge), SQL (Experienced), HTML5/CSS3 (Experienced).
+- Web Systems: RESTful APIs, Relational DB Design (MySQL, SQLite, PostgreSQL), Session Security, Responsive UI.
+- Tools: Git, GitHub, VS Code, Linux CLI, Postman, Vite, Vercel.
+
+## CONTACT & INQUIRIES
+- Email: leivcnt01@gmail.com
+- Expected Response Window: Within 24 hours.
