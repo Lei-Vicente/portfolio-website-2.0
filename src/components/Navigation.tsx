@@ -56,7 +56,7 @@ export const Navigation: React.FC<NavigationProps> = ({ onOpenResume, onOpenMach
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
             </span>
             <span className="font-mono-tech text-[10px] font-medium uppercase tracking-wider text-[var(--text-muted)]">
-              OPEN FOR OJT & ROLES
+              OPEN FOR INTERNSHIPS & FULL TIME OPPORTUNITIES
             </span>
           </div>
         </div>

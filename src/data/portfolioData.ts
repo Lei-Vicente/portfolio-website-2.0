@@ -2,127 +2,44 @@ import { Education, Experience, Project, SkillItem } from '../types';
 
 export const PERSONAL_INFO = {
   name: 'Leibern R. Vicente',
-  title: 'IT Student / Developer / Technical Problem Solver',
-  academicStanding: '4th Year Bachelor of Science in Information Technology',
-  expectedGraduation: '2025 – 2026',
+  title: 'Information Technology Student',
+  academicStanding: 'Bachelor of Science in Information Technology Student',
+  expectedGraduation: 'In progress',
   email: 'leivcnt01@gmail.com',
   github: 'https://github.com/leivcnt01',
   linkedin: 'https://linkedin.com/in/leibern-vicente',
-  phone: '+63 (912) 345-6789',
-  location: 'Philippines',
-  timezone: 'GMT+8 (PST / Asia/Manila)',
-  status: 'Open for OJT, Graduate Engineering Roles & Technical Projects',
-  tagline: 'BUILDING DIGITAL SYSTEMS FROM IDEA TO CODE.',
+  phone: '09922387248',
+  location: 'Barangka Drive, Mandaluyong City, Philippines',
+  timezone: 'GMT+8 (Asia/Manila)',
+  status: 'Open to IT support and entry-level technology opportunities',
+  tagline: 'DEDICATED TO PRACTICAL IT SUPPORT AND RELIABLE OPERATIONS.',
   summary:
-    'Aspiring IT professional focused on bridging problem analysis and clean production code. Disciplined in web architecture, relational database design, and end-to-end technical systems. Committed to engineering software that operates reliably under real-world constraints.',
-  thesis: 'I understand the problem, I think through the solution, and I build it.',
-  positioning: 'Strategy meets production code with minimal handoffs.',
+    'Information Technology student with hands-on experience in IT support, hardware troubleshooting, network configuration, office records, asset tracking, and student leadership.',
+  thesis: 'Clear communication, careful troubleshooting, and dependable delivery.',
+  positioning: 'Practical IT support backed by organized operations.',
 };
 
 export const EDUCATION_DATA: Education = {
   degree: 'Bachelor of Science in Information Technology',
-  program: 'Major in Enterprise Application Development & Network Systems',
-  university: 'College of Information and Communications Technology',
-  yearStanding: '4th Year Standing',
-  expectedGraduation: 'Mid 2026',
-  location: 'Philippines',
+  program: 'Information Technology',
+  university: 'Rizal Technological University, Mandaluyong City',
+  yearStanding: '2023 – Present',
+  expectedGraduation: 'In progress',
+  location: 'Mandaluyong City, Philippines',
   highlights: [
-    'Lead Systems Developer for Senior Capstone Research Project',
-    'Consistent Academic Honors / Dean\'s List Recognition',
-    'Active officer in College Student Association (CMCSA Liaison Head)',
-    'Conducted technical workshops on Git version control for lower-year students',
+    'Academic Achiever',
+    'CMCS Scholar (2023 – Present)',
   ],
   coursework: [
-    'Data Structures & Algorithms',
-    'Object-Oriented Programming (Java / PHP)',
-    'Database Management Systems & SQL Optimization',
-    'Systems Analysis & Software Architecture',
-    'Web Development & RESTful API Design',
-    'Information Assurance & Network Security',
-    'Human-Computer Interaction (HCI)',
-    'Capstone Project / Systems Implementation',
+    'Front-End Development',
+    'C++', 'Java', 'Python', 'SQL', 'PHP',
   ],
 };
 
 export const EXPERIENCES_DATA: Experience[] = [
-  {
-    id: 'exp-ojt',
-    period: '2025 — PRESENT',
-    role: 'IT Systems Intern (OJT)',
-    organization: 'Enterprise IT & Infrastructure Services',
-    type: 'OJT / INTERNSHIP',
-    location: 'On-site / Hybrid',
-    summary:
-      'Supported production IT infrastructure, local server deployments, workstation diagnostics, and database query maintenance under senior engineering guidance.',
-    whatIDid: [
-      'Configured and deployed localized staging environments for enterprise line-of-business applications.',
-      'Audited network endpoint connectivity, switch configurations, and active directory user permissions.',
-      'Wrote structured SQL data-retrieval scripts and verified data backup integrity schedules.',
-      'Collaborated with senior staff to document standard operating procedures (SOPs) for hardware and software rollouts.',
-    ],
-    whatILearned: [
-      'The critical difference between isolated classroom development and production environment failure modes.',
-      'Strict adherence to network security policies, least-privilege access, and change management logs.',
-      'How to isolate root causes in multi-tier hardware and software systems under operational time pressure.',
-    ],
-    whatIContributed: [
-      'Cut repetitive workstation configuration time by 35% through standardized scripted setup checklists.',
-      'Identified and resolved 40+ hardware/network trouble tickets with zero SLA breaches during the rotation.',
-    ],
-    technologiesUsed: ['Windows Server', 'Linux / Bash', 'SQL / MySQL', 'Network Diagnostics', 'Active Directory', 'Git'],
-  },
-  {
-    id: 'exp-sa',
-    period: '2024 — 2025',
-    role: 'Student Assistant — Computer Laboratories',
-    organization: 'College Academic Support Services',
-    type: 'STUDENT ASSISTANT',
-    location: 'Academic Campus',
-    summary:
-      'Maintained university computer laboratory infrastructure, assisted faculty with lab software environments, and provided hands-on troubleshooting for 300+ students weekly.',
-    whatIDid: [
-      'Managed maintenance schedules, disk image restoration, and software stack installations across 5 computer laboratories (150+ workstations).',
-      'Assisted instructors with programming laboratory configurations (Java JDK, Apache/PHP runtime, MySQL servers, and IDE tools).',
-      'Monitored laboratory equipment integrity, power backups, and structured cabling.',
-      'Conducted initial triage on student workstation crashes and software dependency conflicts.',
-    ],
-    whatILearned: [
-      'Operational resilience and empathy when supporting users with varying technical literacy.',
-      'Systematic workstation imaging, automated update scheduling, and hardware lifecycle auditing.',
-      'How to communicate technical issues clearly to non-technical faculty and academic administrators.',
-    ],
-    whatIContributed: [
-      'Built a centralized digital laboratory inventory log that eliminated missing equipment discrepancies.',
-      'Prevented exam-day downtime by instituting a weekly pre-flight software verification protocol.',
-    ],
-    technologiesUsed: ['Hardware Triage', 'Disk Imaging', 'PHP / Apache Environment', 'MySQL Admin', 'Ethernet Cabling'],
-  },
-  {
-    id: 'exp-cmcsa',
-    period: '2024 — PRESENT',
-    role: 'Head of Liaison Committee',
-    organization: 'Computer & Mathematics College Student Association (CMCSA)',
-    type: 'LEADERSHIP',
-    location: 'Collegiate Organization',
-    summary:
-      'Direct external partnerships, inter-departmental communications, and industry guest speaker coordination for college-wide tech symposiums and hackathons.',
-    whatIDid: [
-      'Spearheaded liaison operations for the Annual ICT Week, coordinating with corporate sponsors, alumni developers, and guest speakers.',
-      'Established formal communication channels with student organizations across neighboring engineering colleges.',
-      'Co-developed an event registration and digital attendance check-in workflow for student participants.',
-      'Chaired weekly committee meetings, delegated responsibilities to 8 committee members, and reported directly to executive board.',
-    ],
-    whatILearned: [
-      'High-stakes stakeholder management and professional negotiation with corporate and academic partners.',
-      'How to lead peers without formal corporate authority by setting clear technical goals and transparent tracking.',
-      'Risk mitigation: handling sudden speaker cancellations or venue changes with prompt contingency plans.',
-    ],
-    whatIContributed: [
-      'Secured 4 industry practitioners from leading tech firms as keynote speakers for the College Developer Summit.',
-      'Digitized the participant attendance tracking process, eliminating manual paper rosters and cutting queue wait time by 60%.',
-    ],
-    technologiesUsed: ['Workflow Automation', 'Project Coordination', 'Google Workspace Tools', 'Technical Documentation'],
-  },
+  { id: 'exp-valucare', period: 'FEBRUARY 2026 – APRIL 2026', role: 'IT Support', organization: 'Value Care Health Systems, Inc. (ValuCare)', type: 'OJT / INTERNSHIP', location: 'Mandaluyong City, Philippines', summary: 'Provided IT hardware and technical support for office laptops, printers, and essential equipment.', whatIDid: ['Performed hardware maintenance, troubleshooting, and repairs.', 'Configured static IP addresses and network settings.', 'Installed printer drivers and network-enabled devices.', 'Managed and prioritized IT help-desk tickets.'], whatILearned: ['IT infrastructure and hardware support', 'Network troubleshooting', 'Technical customer service'], whatIContributed: ['Applied preventive maintenance and standardized troubleshooting procedures.', 'Used step-by-step diagnostics before recommending hardware replacements.'], technologiesUsed: ['Hardware Troubleshooting', 'Network Configuration', 'Printer Setup', 'Help Desk Support'] },
+  { id: 'exp-student-assistant', period: 'AUGUST 2025 – OCTOBER 2025', role: 'Student Assistant', organization: 'Rizal Technological University – Institute of Computer Studies Office', type: 'STUDENT ASSISTANT', location: 'Mandaluyong City, Philippines', summary: 'Supported capstone records, office reporting, equipment inventory, and document-routing operations.', whatIDid: ['Maintained a PHP and MS Access database for student capstone projects.', 'Organized departmental records and generated reports with MS Excel.', 'Tracked and audited office equipment and laboratory assets.', 'Logged, digitized, and routed receiving and outgoing communications.'], whatILearned: ['Database and records management', 'Office administration and reporting'], whatIContributed: ['Improved faculty access to capstone-project records.', 'Maintained accurate inventory logs.'], technologiesUsed: ['PHP', 'Microsoft Access', 'Microsoft Excel', 'Asset Tracking'] },
+  { id: 'exp-cmcsa', period: '2025 – PRESENT', role: 'Head of Liaison Committee', organization: 'CMCSA (City of Mandaluyong Collegiate Scholarship Association)', type: 'LEADERSHIP', location: 'Mandaluyong City, Philippines', summary: 'Leads scholarship-program operations, seminar coordination, and student volunteer teams.', whatIDid: ['Established operational processes for scholarship-program administration.', 'Planned and set up seminars for scholarship members and external professionals.', 'Led student volunteers for large-scale orientation events.'], whatILearned: ['Liaison and stakeholder management', 'Project management', 'Conflict resolution and relationship building'], whatIContributed: ['Supported equitable application review and timely fund disbursement.', 'Delivered events against attendance goals and strict deadlines.'], technologiesUsed: ['Project Management', 'Stakeholder Communication', 'Event Coordination', 'Team Leadership'] },
 ];
 
 export const PROJECTS_DATA: Project[] = [
@@ -287,48 +204,34 @@ export const PROJECTS_DATA: Project[] = [
 ];
 
 export const SKILLS_DATA: SkillItem[] = [
-  // DEVELOPMENT
-  { name: 'PHP', level: 'EXPERIENCED', category: 'DEVELOPMENT', notes: 'Core OOP, MVC patterns, PDO, REST backend' },
-  { name: 'Java', level: 'EXPERIENCED', category: 'DEVELOPMENT', notes: 'Core Java, OOP principles, JavaFX, JDBC' },
-  { name: 'JavaScript (ES6+)', level: 'EXPERIENCED', category: 'DEVELOPMENT', notes: 'Asynchronous flow, DOM API, modular JS' },
-  { name: 'TypeScript', level: 'WORKING KNOWLEDGE', category: 'DEVELOPMENT', notes: 'Strict typing, interfaces, generic models' },
-  { name: 'SQL', level: 'EXPERIENCED', category: 'DEVELOPMENT', notes: 'Schema design, indexes, joins, ACID transactions' },
-  { name: 'HTML5 & Semantic Web', level: 'EXPERIENCED', category: 'DEVELOPMENT', notes: 'Accessible markup, WCAG AA, SEO schema' },
-  { name: 'CSS3 & Tailwind CSS', level: 'EXPERIENCED', category: 'DEVELOPMENT', notes: 'Design systems, responsive grids, utilities' },
-
-  // WEB & SYSTEMS
-  { name: 'Frontend Architecture', level: 'EXPERIENCED', category: 'WEB & SYSTEMS', notes: 'Component hierarchy, state flows, React' },
-  { name: 'Backend API Design', level: 'WORKING KNOWLEDGE', category: 'WEB & SYSTEMS', notes: 'RESTful endpoints, JSON standards, status codes' },
-  { name: 'Relational Database Design', level: 'EXPERIENCED', category: 'WEB & SYSTEMS', notes: 'MySQL, PostgreSQL, SQLite, 3NF normalization' },
-  { name: 'Session & Auth Security', level: 'WORKING KNOWLEDGE', category: 'WEB & SYSTEMS', notes: 'Password hashing (bcrypt), JWT, RBAC guards' },
-  { name: 'HTTP & Network Protocols', level: 'WORKING KNOWLEDGE', category: 'WEB & SYSTEMS', notes: 'TCP/IP, DNS, SSL/TLS, request headers' },
-  { name: 'Responsive UI / Mobile-First', level: 'EXPERIENCED', category: 'WEB & SYSTEMS', notes: 'Breakpoint mechanics, touch targets, Swiss grid' },
-
-  // TOOLS & INFRASTRUCTURE
-  { name: 'Git & GitHub', level: 'EXPERIENCED', category: 'TOOLS & INFRASTRUCTURE', notes: 'Branching, PRs, merge workflows, CLI' },
-  { name: 'VS Code & JetBrains IDEs', level: 'EXPERIENCED', category: 'TOOLS & INFRASTRUCTURE', notes: 'Extensions, debugging, workspace configs' },
-  { name: 'Vite & Build Tooling', level: 'WORKING KNOWLEDGE', category: 'TOOLS & INFRASTRUCTURE', notes: 'Asset pipeline, HMR, bundling optimizations' },
-  { name: 'Linux Command Line', level: 'WORKING KNOWLEDGE', category: 'TOOLS & INFRASTRUCTURE', notes: 'Bash scripting, file permissions, SSH, systemctl' },
-  { name: 'Postman', level: 'WORKING KNOWLEDGE', category: 'TOOLS & INFRASTRUCTURE', notes: 'API endpoint testing, header & payload verification' },
-  { name: 'Vercel / Cloud Platforms', level: 'WORKING KNOWLEDGE', category: 'TOOLS & INFRASTRUCTURE', notes: 'Deployment hooks, environment variables' },
-
-  // METHODOLOGIES
-  { name: 'Systems Analysis & Design', level: 'EXPERIENCED', category: 'METHODOLOGIES', notes: 'DFDs, ERDs, use-case modeling, requirements' },
-  { name: 'Technical Documentation', level: 'EXPERIENCED', category: 'METHODOLOGIES', notes: 'Architectural summaries, user manuals, API specs' },
-  { name: 'Problem Decomposition', level: 'EXPERIENCED', category: 'METHODOLOGIES', notes: 'Breaking complex business needs into clean modules' },
+  { name: 'HTML', level: 'FAMILIAR', category: 'DEVELOPMENT', notes: 'Basic front-end development' },
+  { name: 'CSS', level: 'FAMILIAR', category: 'DEVELOPMENT', notes: 'Basic front-end development' },
+  { name: 'JavaScript', level: 'FAMILIAR', category: 'DEVELOPMENT' },
+  { name: 'C++', level: 'FAMILIAR', category: 'DEVELOPMENT' },
+  { name: 'Java', level: 'FAMILIAR', category: 'DEVELOPMENT' },
+  { name: 'Python', level: 'FAMILIAR', category: 'DEVELOPMENT' },
+  { name: 'SQL', level: 'FAMILIAR', category: 'DEVELOPMENT' },
+  { name: 'PHP', level: 'FAMILIAR', category: 'DEVELOPMENT' },
+  { name: 'Hardware & Technical Support', level: 'WORKING KNOWLEDGE', category: 'WEB & SYSTEMS' },
+  { name: 'Network Configuration', level: 'WORKING KNOWLEDGE', category: 'WEB & SYSTEMS' },
+  { name: 'Microsoft Office Suite', level: 'EXPERIENCED', category: 'TOOLS & INFRASTRUCTURE', notes: 'Word, Excel, PowerPoint' },
+  { name: 'Canva & CapCut', level: 'WORKING KNOWLEDGE', category: 'TOOLS & INFRASTRUCTURE' },
+  { name: 'Inventory Management', level: 'WORKING KNOWLEDGE', category: 'METHODOLOGIES' },
+  { name: 'Project Management', level: 'WORKING KNOWLEDGE', category: 'METHODOLOGIES' },
+  { name: 'Communication & Active Listening', level: 'EXPERIENCED', category: 'METHODOLOGIES' },
 ];
 
 export const ABOUT_PROFILE_DATA = {
   whoIAm:
-    "I am a fourth-year Information Technology student based in the Philippines, preparing to transition into full-time software engineering and systems development. Rather than treating code as an isolated technical exercise, I focus on how digital architecture serves real operational workflows.",
+    "I am an Information Technology student based in Mandaluyong City with hands-on experience in IT support, technical troubleshooting, record keeping, and student leadership.",
   howIGotIntoIT:
-    "My journey began with a natural curiosity about how computers translate electrical signals and logic into everyday tools. As I progressed from writing basic CLI scripts to building full relational database systems, I discovered that software engineering is fundamentally about structured problem decomposition.",
+    "My studies in Information Technology built my interest in the systems that help people work effectively, from front-end development and databases to day-to-day technical support.",
   howILearn:
-    "I learn by building from first principles. When adopting a new language or framework, I inspect its official documentation, verify its runtime behavior through small isolated prototypes, and integrate it into a real, functional application before declaring familiarity.",
+    "I learn by applying concepts carefully, documenting what works, and asking clear questions when resolving unfamiliar issues.",
   approachToTech:
-    "I prioritize simplicity, structural transparency, and reliability. I prefer clean, well-indexed SQL schemas and lean semantic markup over sprawling, opaque dependency chains. Software should be maintainable by anyone who reads it tomorrow.",
+    "I use systematic diagnostics, preventive maintenance, and clear communication to keep technical work reliable and understandable.",
   careerDirection:
-    "My immediate goal is contributing to high-impact engineering teams where I can take technical requirements from specification through testing and deployment. In the long term, I aim to architect scalable distributed systems and mission-critical enterprise applications.",
+    "I am building experience in IT support and technology operations while continuing to strengthen my development and database foundations.",
 };
 
 // Machine-readable generation helpers
@@ -339,28 +242,29 @@ export function generateLLMSTxt(): string {
 
 ## IDENTITY
 - Name: Leibern R. Vicente
-- Title: IT Student / Developer / Technical Problem Solver
-- Current Standing: 4th Year Bachelor of Science in Information Technology
-- Status: Available for OJT, Graduate Engineering Roles, and Technical Projects
-- Location: Philippines (GMT+8)
+- Title: Information Technology Student
+- Current Standing: Bachelor of Science in Information Technology Student
+- Status: Open to IT support and entry-level technology opportunities
+- Location: Mandaluyong City, Philippines (GMT+8)
 - Email: leivcnt01@gmail.com
+- Phone: 09922387248
 - GitHub: https://github.com/leivcnt01
-- Primary Positioning: "Strategy meets production code with minimal handoffs."
-- Core Thesis: "I understand the problem, I think through the solution, and I build it."
+- Primary Positioning: "Practical IT support backed by organized operations."
+- Core Thesis: "Clear communication, careful troubleshooting, and dependable delivery."
 
 ## EDUCATION
-- University: College of Information and Communications Technology
+- University: Rizal Technological University, Mandaluyong City
 - Degree: Bachelor of Science in Information Technology
-- Standing: 4th Year (Expected Graduation: 2025–2026)
-- Core Competencies: Software Architecture, Database Normalization, Web Systems, Network Fundamentals.
+- Standing: 2023–Present
+- Core Competencies: Front-end development, programming, databases, hardware support, and network configuration.
 
 ## EXPERIENCE & LEADERSHIP
-1. IT Systems Intern (OJT) | Enterprise IT Services (2025–Present)
-   - Staging deployments, network diagnostics, SQL audits, SOP documentation.
-2. Student Assistant | College Computer Laboratories (2024–2025)
-   - Maintained 150+ workstations, software stack imaging, lab environment triage.
-3. Head of Liaison Committee | CMCSA Student Association (2024–Present)
-   - External tech partnerships, developer symposium coordination, digitized check-in system.
+1. IT Support | Value Care Health Systems, Inc. (ValuCare) | February–April 2026
+   - Hardware support, troubleshooting, network configuration, printer setup, and help-desk support.
+2. Student Assistant | RTU Institute of Computer Studies Office | August–October 2025
+   - PHP/MS Access capstone records, Excel reporting, asset tracking, and document routing.
+3. Head of Liaison Committee | CMCSA | 2025–Present
+   - Scholarship operations, seminar coordination, and student volunteer leadership.
 
 ## PROJECTS & EVIDENCE
 - [001] Academic Records & Capstone Management System: PHP, MySQL, MVC, Tailwind. Built for 32 capstone teams and 14 faculty evaluators.
@@ -370,9 +274,8 @@ export function generateLLMSTxt(): string {
 - [005] Prerequisite Graph Engine: Vanilla JS, Canvas API, DAG Topological Sort. Course bottleneck simulator for 150+ students.
 
 ## CORE SKILLS
-- Development: PHP (Experienced), Java (Experienced), JavaScript ES6+ (Experienced), TypeScript (Working Knowledge), SQL (Experienced), HTML5/CSS3 (Experienced).
-- Web Systems: RESTful APIs, Relational DB Design (MySQL, SQLite, PostgreSQL), Session Security, Responsive UI.
-- Tools: Git, GitHub, VS Code, Linux CLI, Postman, Vite, Vercel.
+- Development: HTML, CSS, JavaScript, C++, Java, Python, SQL, PHP.
+- Technical: Hardware support, network configuration, Microsoft Office, inventory management, project management.
 
 ## CONTACT & INQUIRIES
 - Email: leivcnt01@gmail.com

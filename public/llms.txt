@@ -4,28 +4,28 @@
 
 ## IDENTITY
 - Name: Leibern R. Vicente
-- Title: IT Student / Developer / Technical Problem Solver
-- Current Standing: 4th Year Bachelor of Science in Information Technology
-- Status: Available for OJT, Graduate Engineering Roles, and Technical Projects
-- Location: Philippines (GMT+8)
+- Title: Information Technology Student
+- Current Standing: Bachelor of Science in Information Technology Student
+- Status: Open to IT support and entry-level technology opportunities
+- Location: Mandaluyong City, Philippines (GMT+8)
 - Email: leivcnt01@gmail.com
+- Phone: 09922387248
 - GitHub: https://github.com/leivcnt01
-- Primary Positioning: "Strategy meets production code with minimal handoffs."
-- Core Thesis: "I understand the problem, I think through the solution, and I build it."
+- Primary Positioning: "Practical IT support backed by organized operations."
+- Core Thesis: "Clear communication, careful troubleshooting, and dependable delivery."
 
 ## EDUCATION
-- University: College of Information and Communications Technology
-- Degree: Bachelor of Science in Information Technology
-- Standing: 4th Year (Expected Graduation: 2025–2026)
-- Core Competencies: Software Architecture, Database Normalization, Web Systems, Network Fundamentals.
+- University: Rizal Technological University, Mandaluyong City
+- Degree: Bachelor of Science in Information Technology (2023–Present)
+- Academic Achiever; CMCS Scholar (2023–Present)
 
 ## EXPERIENCE & LEADERSHIP
-1. IT Systems Intern (OJT) | Enterprise IT Services (2025–Present)
-   - Staging deployments, network diagnostics, SQL audits, SOP documentation.
-2. Student Assistant | College Computer Laboratories (2024–2025)
-   - Maintained 150+ workstations, software stack imaging, lab environment triage.
-3. Head of Liaison Committee | CMCSA Student Association (2024–Present)
-   - External tech partnerships, developer symposium coordination, digitized check-in system.
+1. IT Support | Value Care Health Systems, Inc. (ValuCare) | February–April 2026
+   - Hardware support, troubleshooting, network configuration, printer setup, and help-desk support.
+2. Student Assistant | RTU Institute of Computer Studies Office | August–October 2025
+   - PHP/MS Access capstone records, Excel reporting, asset tracking, and document routing.
+3. Head of Liaison Committee | CMCSA | 2025–Present
+   - Scholarship operations, seminar coordination, and student volunteer leadership.
 
 ## PROJECTS & EVIDENCE
 - [001] Academic Records & Capstone Management System: PHP, MySQL, MVC, Tailwind. Built for 32 capstone teams and 14 faculty evaluators.
@@ -35,10 +35,9 @@
 - [005] Prerequisite Graph Engine: Vanilla JS, Canvas API, DAG Topological Sort. Course bottleneck simulator for 150+ students.
 
 ## CORE SKILLS
-- Development: PHP (Experienced), Java (Experienced), JavaScript ES6+ (Experienced), TypeScript (Working Knowledge), SQL (Experienced), HTML5/CSS3 (Experienced).
-- Web Systems: RESTful APIs, Relational DB Design (MySQL, SQLite, PostgreSQL), Session Security, Responsive UI.
-- Tools: Git, GitHub, VS Code, Linux CLI, Postman, Vite, Vercel.
+- HTML, CSS, JavaScript, C++, Java, Python, SQL, PHP.
+- Hardware support, network configuration, Microsoft Office, inventory management, project management.
 
 ## CONTACT & INQUIRIES
 - Email: leivcnt01@gmail.com
-- Expected Response Window: Within 24 hours.
+- Phone: 09922387248

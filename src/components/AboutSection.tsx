@@ -189,7 +189,7 @@ export const AboutSection: React.FC = () => {
                     SECTION 04 / TRAJECTORY
                   </span>
                   <h3 className="font-display text-2xl font-bold text-[var(--text-primary)] mt-1">
-                    From capstone lead to dependable production engineer.
+                    Building practical IT experience with a dependable approach.
                   </h3>
                 </div>
                 <p className="text-base text-[var(--text-secondary)] leading-relaxed">
@@ -197,10 +197,10 @@ export const AboutSection: React.FC = () => {
                 </p>
                 <div className="border border-[var(--border)] p-4 bg-[var(--surface-secondary)] font-mono-tech text-xs">
                   <span className="text-[10px] text-[var(--text-muted)] uppercase block mb-1">
-                    IMMEDIATE OBJECTIVE (2025–2026)
+                    CURRENT OBJECTIVE
                   </span>
                   <p className="text-[var(--text-primary)] font-medium">
-                    Securing a rigorous On-the-Job Training (OJT) or Associate Software Developer position with focus on backend services, full-stack web platforms, or database engineering.
+                    Growing in IT support and technology operations while continuing to develop database and programming skills.
                   </p>
                 </div>
               </div>

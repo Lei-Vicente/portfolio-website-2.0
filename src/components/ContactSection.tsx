@@ -101,10 +101,10 @@ export const ContactSection: React.FC = () => {
             {/* Availability Notice */}
             <div className="border border-[var(--border)] bg-[var(--surface-secondary)] p-6 font-mono-tech text-xs">
               <span className="text-[10px] font-bold text-[var(--text-muted)] uppercase tracking-wider block mb-2">
-                AVAILABILITY NOTICE (2025–2026)
+                AVAILABILITY NOTICE
               </span>
               <p className="text-[var(--text-secondary)] leading-relaxed">
-                Currently completing 4th-year BSIT degree requirements. Actively interviewing for enterprise On-the-Job Training (OJT), junior software engineering roles, and technical project collaborations.
+                {PERSONAL_INFO.status}
               </p>
             </div>
           </div>
